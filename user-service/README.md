@@ -17,8 +17,15 @@
 
 ### MONGO_URI
 Specifies the HOST and PORT your MongoDB database is running on
-together with the database to be used in your application. It
-usually follow this format: `mongodb://<IP Address>:<PORT>/<DB_NAME>`
+together with the database to be used in your application. Its value
+usually follows this format: `mongodb://<IP Address>:<PORT>/<DB_NAME>`
+
+This is how environment variables values are assigned:
+`MONGO_URI=mongodb://<IP Address>:<PORT>/<DB_NAME>` with no
+spaces in-between the assignment operator. 
+
+NOTE: The same method should be used when assigning values to 
+`JWT_SECRET` and `REFRESH_TOKEN` or any other environment variables
 
 ### JWT_SECRET
 Generate a random token using openssl base64 or any random string
