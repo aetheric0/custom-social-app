@@ -30,7 +30,7 @@ NOTE: The same method should be used when assigning values to
 ### JWT_SECRET
 Generate a random token using openssl base64 or any random string
 generator to be used for encoding and decoding your web token.
-I.e. running this command in your terminal: `openssl base64 32`
+I.e. running this command in your terminal: ```openssl rand -base64 32```
 should generate a secure random string
 
 ### REFRESH_TOKEN
