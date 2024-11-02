@@ -18,10 +18,10 @@
 ### MONGO_URI
 Specifies the HOST and PORT your MongoDB database is running on
 together with the database to be used in your application. Its value
-usually follows this format: `mongodb://<IP Address>:<PORT>/<DB_NAME>`
+usually follows this format: `mongodb://<HOST>:<PORT>/<DB_NAME>`
 
 This is how environment variables values are assigned:
-`MONGO_URI=mongodb://<IP Address>:<PORT>/<DB_NAME>` with no
+`MONGO_URI=mongodb://<HOST>:<PORT>/<DB_NAME>` with no
 spaces in-between the assignment operator. 
 
 NOTE: The same method should be used when assigning values to 
