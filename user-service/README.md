@@ -1,9 +1,9 @@
-# CONFIGURATION FOR User-Service Backend
+# CONFIGURATION FOR USER-SERVICE BACKEND
 
 ## PRE-REQUISITES
 - Make sure to have MongoDB installed and enabled, you can follow
   the installation instructions on the MongoDB official website
-  docs
+  docs here: https://www.mongodb.com/docs/manual/installation/
 
 ## SETUP
  - Run `npm install` to install node modules and dependencies
